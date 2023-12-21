@@ -1,6 +1,6 @@
 import React from "react";
 
-function Cards(data) {
+function Cards({data}) {
   console.log(data);
   return (
     <div className="col-lg-4">
